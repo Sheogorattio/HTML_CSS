@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&family=Kenia&family=Montserrat:wght@300;400&family=Roboto:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.product{
+    font-family: Montserrat;
+    width: 288.75px;
+    height: 438.19px;
+    flex-shrink: 0;
+    border: 1px solid #ACACAC;
+    background: #FFF;
+    margin: 26px 45px 27px 30px ;
+}
+
+.code-info{
+    color: #707070;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+
+    display: flex;
+    justify-content: right;
+    margin-right: 20px;
+    margin-top: 22px;
+}
+.code-info b{
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px; /* 138.462% */
+}
+
+img{
+    margin-left: 38.8px;
+    margin-top: 12px;
+    margin-bottom: 45px;
+}
+
+.name{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px; /* 128.571% */
+    margin-left: 25px;
+}
+
+.availability{
+    background: #F5F8E7;
+    padding: 0px 5px;
+    margin-left: 20.25px;
+    margin-top: 5.7px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.availability p{
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16.2px; /* 135% */
+    color: #94B80A;
+}
+
+.old-price{
+    color: #707070;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 15px; /* 125% */
+    display: block;
+    margin-left: 20px;
+    margin-top: 18.42px;
+}
+
+.new-price{
+    color: #F2530C;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+    margin-left: 20px;
+    margin-top: 0;
+}
