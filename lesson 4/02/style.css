@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    margin: 15px 20px;
+    list-style-type: none;
+}
+
+ul li{
+    margin: 10px auto;
+    
+}
+
+.title{
+    background: rgb(40, 97, 40);
+    padding: 10px 25px;
+}
+
+.text{
+    background: rgb(62, 135, 62);
+    padding: 15px 15px;
+}
+
+li p{
+    font-family: sans-serif;
+    color: #fff;
+}
+
+.outOfList{
+    margin-left: 20px;
+}
